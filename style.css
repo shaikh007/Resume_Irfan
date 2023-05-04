@@ -7,11 +7,11 @@
     }
     
     .main-content {
-        min-height: 1000px;
+        min-height: 1200px;
         width: 90%;
         margin: 20px auto;
         display: grid;
-        grid-template-columns: 300px 700px;
+        grid-template-columns: 400px 700px;
     }
     
     .left-section {
@@ -59,12 +59,15 @@
         color: #fff;
         font-size: 0.75rem;
         text-align: center;
-        padding: 1rem;
+        padding: 0.8rem;
         line-height: 1.8rem;
     }
     
     a {
+        color: rgb(0, 41, 224);
         cursor: pointer;
+        text-decoration: none;
+        padding-bottom: 16px;
     }
     
     a:hover {
@@ -98,7 +101,9 @@
         margin-bottom: 0.3rem;
     }
     
-    .skills {
+    .skills,
+    .contacts,
+    .interns {
         font-size: 0.75rem;
         text-align: center;
         text-transform: uppercase;
@@ -132,6 +137,14 @@
         width: 60%;
     }
     
+    .progress-react {
+        width: 70%;
+    }
+    
+    .progress-bootstrap {
+        width: 70%;
+    }
+    
     .skill {
         margin-bottom: 1rem;
     }
@@ -143,26 +156,45 @@
     .right-title {
         font-size: 1.2rem;
         font-weight: 700;
-        padding: 0.5rem;
+        padding: 0rem;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
     
-    .education-detail {
+    .education-detail,
+    .intern-detail,
+    .project-detail {
         display: flex;
         margin: 1rem 0;
+        padding-right: 3px;
     }
     
     .about-me-section {
-        margin-bottom: 2rem;
+        margin-bottom: 1.8rem;
     }
     
     .detail-left-section {
         margin-right: 4rem;
     }
     
+    .detail-left-section p {
+        text-align: justify;
+    }
+    
+    .detail-left-section h3 {
+        padding-bottom: 1rem;
+    }
+    
     .detail-right-section {
         font-size: 1rem;
+    }
+    
+    .detail-right-section h4 {
+        padding-bottom: 1rem;
+    }
+    
+    .detail-right-section span {
+        text-align: justify;
     }
     
     @media screen and (max-width: 673px) {
